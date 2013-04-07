@@ -45,8 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConvFacebook.cs" />
+    <Compile Include="ConvFacebookAccount.cs" />
+    <Compile Include="ConvStatsFacebook.cs" />
+    <Compile Include="ConvStatsFacebookAdGroup.cs" />
+    <Compile Include="ConvStatsFacebookCampaign.cs" />
+    <Compile Include="ConvFacebookAdGroup.cs" />
+    <Compile Include="ConvFacebookCampaign.cs" />
+    <Compile Include="PerfFacebookCampaign.cs" />
+    <Compile Include="PerfFacebookAdGroup.cs" />
     <Compile Include="ObjectTableType.cs" />
     <Compile Include="DBProvider.cs" />
+    <Compile Include="PerfFacebook.cs" />
+    <Compile Include="PerfFacebookAccount.cs" />
     <Compile Include="PerformanceTableType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportProgressEvent.cs" />
